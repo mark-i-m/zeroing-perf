@@ -1,5 +1,5 @@
 
-FLAGS=-O3 -march=native
+FLAGS=-O3 -march=native -std=gnu99 -Wall -Werror
 
 COMMON_H=memset-test.h
 COMMON_C=memset-test.c
